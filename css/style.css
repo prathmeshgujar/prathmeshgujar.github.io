@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	height: 600px;
+	width: 100%;
+	background-image: url("../images/header-image.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar{
+	height: 100px;
+}
+
+.navbar-brand{
+	margin-left: 100px;
+}
+
+
+@media(max-width: 576px){
+	.navbar{
+		height: 110px;
+	}
+	.navbar-brand{
+		margin-left: 10px;
+	}
+	.navbar-nav{
+		background-color: #ffffff;
+		text-align: center;
+		margin-top: -9px;
+	}
+}
