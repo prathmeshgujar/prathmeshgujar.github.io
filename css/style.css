@@ -12,25 +12,9 @@ body{
 	background-repeat: no-repeat;
 }
 
-.navbar{
-	height: 100px;
-}
-
-.navbar-brand{
-	margin-left: 100px;
+.head-btn{
+	display: block !important;
 }
 
 
-@media(max-width: 576px){
-	.navbar{
-		height: 110px;
-	}
-	.navbar-brand{
-		margin-left: 10px;
-	}
-	.navbar-nav{
-		background-color: #ffffff;
-		text-align: center;
-		margin-top: -9px;
-	}
-}
+
