@@ -12,3 +12,13 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.navbar-toggler-icon{
+	background-image: url("../images/hamburger.png") !important;
+}
+
+@media(max-width: 425px){
+	.header-container-1 > .row > .col-sm-12{
+		font-size: 2.5em !important;
+	}
+}
