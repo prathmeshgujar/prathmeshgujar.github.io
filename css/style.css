@@ -22,3 +22,35 @@ body{
 		font-size: 2.5em !important;
 	}
 }
+
+@media(max-width: 375px){
+
+	#services > .row > .col-sm-12{
+		font-size: 2.5em !important;
+	}
+
+	#our-work > .row > .col-sm-12{
+		font-size: 2.5em !important;
+	}
+
+	#about-us > .row > .col-sm-12{
+		font-size: 2.5em !important;
+	}
+
+	#about-us > .jumbotron > .display-4{
+		font-size: 2.5em !important;
+	}
+
+	#contact > .row > .col-sm-12{
+		font-size: 2.5em !important;
+	}
+
+	#footer > .fluid-container > .row > .col-sm-12{
+		font-size: 2em !important;
+		margin-top: 20px !important;
+	}
+
+	#footer span{
+		font-size: 1.5em !important;
+	}
+}
